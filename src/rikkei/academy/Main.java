@@ -14,17 +14,25 @@ public class Main {
         System.out.println(circle);
         circle = new Circle(5.5);
         System.out.println(circle);
-        circle = new Circle(3.5,"indigo", false);
+        circle = new Circle(3.5, "indigo", false);
         System.out.println(circle);
         // test  rectangle
-        System.out.println( " -------rectangle-------");
+        System.out.println(" -------rectangle-------");
         Rectangle rectangle = new Rectangle();
         System.out.println(rectangle);
-        rectangle = new Rectangle(2.3,5.8);
+        rectangle = new Rectangle(2.3, 5.8);
         System.out.println(rectangle);
         System.out.println(rectangle);
-        rectangle = new Rectangle("orange",true,2.5,3.8);
+        rectangle = new Rectangle("orange", true, 2.5, 3.8);
         System.out.println(rectangle);
+        System.out.println("---------SQUARE----------");
+        Square square = new Square();
+        System.out.println(square);
+        square = new Square(2.3);
+        System.out.println(square);
+        square = new Square("red",true,6,8);
+        System.out.println(square);
+
 
     }
 }
